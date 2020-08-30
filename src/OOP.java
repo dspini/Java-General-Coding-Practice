@@ -65,20 +65,20 @@ public class OOP {
     }
 
 // If you don't want the ability to override existing values, declare the attribute as final:
-    public static class MyClassG {
-        final int x = 10;
-
-        public static void main(String[] args) {
-            MyClassG myObj = new MyClassG();
-            myObjName: John Doe
-            Age: 24.x = 25; // will generate an error
-            System.out.println(myObj.x);
+//    public static class MyClassG {
+//        final int x = 10;
+//
+//        public static void main(String[] args) {
+//            MyClassG myObj = new MyClassG();
+//            myObjName: John Doe
+//            Age: 24.x = 25; // will generate an error
+//            System.out.println(myObj.x);
 //            MyClass.java:6: error: cannot assign a value to final variable x
 //            myObj.x = 25;
 //                 ^
 //            1 error
-        }
-    }
+//        }
+//    }
 
 //  If you create multiple objects of one class, you can change the attribute values in one object,
 //  without affecting the attribute values in the other:
