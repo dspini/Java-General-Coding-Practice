@@ -74,6 +74,7 @@ public class Java_Variables {
         }
     }
 
+
     public static class DeclareManyVariables {
         public static void main(String[] args) {
             int x = 5, y = 6, z = 50;
